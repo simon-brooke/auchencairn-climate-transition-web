@@ -1,0 +1,39 @@
+{:archive-group-format         "yyyy MMMM"
+ :author                       "Auchencairn Climate Transition"
+ :author-root-uri              "authors-output"
+ :blocks-per-preview           2
+ :blog-prefix                  ""
+ :clean-urls                   :trailing-slash
+ :collapse-subdirs?            false
+ :debug?                       false
+ :description-include-elements #{:p :h1 :h2 :h3 :h4 :h5 :h6}
+ :description                  "News from Auchencairn's village climate action group."
+ :disqus?                      false
+ :disqus-shortname             ""
+ :hide-future-posts?           true
+ :ignored-files                [#"\.#.*" #".*\.swp$"]
+ :keep-files                   [".git"]
+ :klipse                       {}
+ :mastodon                     {:host nil :acct nil}
+ :page-root                    "pages"
+ :page-root-uri                "pages-output"
+ :post-date-format             "yyyy-MM-dd"
+ :post-root                    "posts"
+ :post-root-uri                "posts-output"
+ :posts-per-page               5
+ :previews?                    false
+ :public-dest                  "public"
+ :recent-posts                 3
+ :resources                    ["img"]
+ :rss-filters                  ["cryogen"]
+ :rss-name                     "feed.xml"
+ :sass-path                    "sass"
+ :sass-src                     []
+ :site-title                   "Auchencairn Climate Transition"
+ :site-url                     "https://act.scot/"
+ :tag-root-uri                 "tags-output"
+ :theme                        "camouflage";; "warming-stripes" ;; "camouflage"
+ :theme-resources              ["img" "fonts"]
+ :twitter-acct                 nil ;; change this to "your-twitter-handle" to enable auto twitter banners
+ }
+

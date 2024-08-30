@@ -1,0 +1,430 @@
+/* camouflage scheme */
+
+@media all and (min-device-width: 1025px) {
+    a {
+        color: #588157;
+    }
+
+    a:visited {
+        color: #3a5a40;
+    }
+
+    blockquote {
+        font-style: italic;
+    }
+
+    body {
+        margin: 0;
+        padding: 0;
+        padding-bottom: 4em;
+        font-family: sans-serif;
+        color: #344e41;
+        background-color: #dad7cd;
+    }
+
+
+    #main-container img {
+        clear: both;
+        padding: 0.5em 2em 0.5em 0;
+    }
+
+    /* ids generally in document order */
+
+    /* top-of-page navigation, not editable, provided by Smeagol */
+    #nav {
+        margin: 0;
+        padding: 0 18%;
+        top: 0;
+        width: 100%;
+≈       z-index: 149;
+        background: #a3b18a;
+    }
+
+    #phone-side-bar {
+        display: none;
+    }
+
+    /* only needed for fly-out menu effect on tablet and phone stylesheets */
+    #nav-icon {
+        display: none;
+    }
+
+    #nav-menu {
+        margin: 0;
+        padding: 0;
+    }
+
+    #nav ul li {
+        padding: 0;
+        margin: 0;
+        display: inline;
+    }
+
+    #nav ul li a {
+        color: yellowgreen;
+        text-decoration: none;
+        font-weight: bold;
+        padding: 0.1em 0.75em;
+        margin: 0;
+    }
+
+    #nav ul li.active a {
+        background: #dad7cd;
+    }
+
+    li.nav-item a:hover {
+        background: goldenrod;
+    }
+
+    li.nav-item a:active {
+        background: #dad7cd;
+    }
+
+
+    /* header for all pages */
+    #header {
+        margin-top: 0;
+        width: 100%;
+        background-color: #a3b18a;
+    }
+
+    #header h1 {
+        margin-top: 0;
+    }
+
+    /* left bar for all pages */
+    #side-bar {
+        width: 17%;
+        height: 100%;
+        padding-bottom: 5em;
+        float: left;
+    }
+
+    /* content of the current in the Wiki - editable, provided by users. Within main-container */
+    #content {
+        border: thin solid #a3b18a;
+        width: 80%;
+        float: right;
+        padding-bottom: 5em;
+    }
+
+    /* cookies information box, fixed, in right margin, just above footer */
+    #cookies {
+        width: 30%;
+        float: right;
+        position: fixed;
+        bottom: 1.5em;
+        right: 0;
+        z-index: 150;
+        background: transparent;
+    }
+
+    /* about-cookies box: permanently visible part of cookies information box */
+    #about-cookies {
+        clear: right;
+        width: 10em;
+        font-size: 66%;
+        float: right;
+        text-align: right;
+        padding: 0.25em 2em;
+        background: #a3b18a;
+    }
+
+    /* more-about-cookies box, normally hidden */
+    #more-about-cookies {
+        display: none;
+        padding: 0.25em 2em;
+        background: #a3b18a;
+        border-bottom: thin solid yellowgreen;
+    }
+
+    /* but magically appears on mouseover */
+    #cookies:hover #more-about-cookies {
+        display: block;
+    }
+
+    /* footer of the page - not-editable, provided by Smeagol */
+    #footer {
+        clear: both;
+        font-size: smaller;
+        text-align: center;
+        background: #a3b18a;
+        width: 100%;
+        margin: 0;
+        padding: 0.25em 0;
+        bottom: 0;
+        position: fixed;
+        vertical-align: top;
+        z-index: 150;
+        _position: absolute;
+        _top: expression(eval(document.documentElement.scrollTop+ (document.documentElement.clientHeight-this.offsetHeight)));
+    }
+
+
+    .change {
+        background-color: rgb(223, 223, 223);
+        border: thin solid #0c0;
+    }
+
+
+    .error {
+        width: 100%;
+        background-color: red;
+        color: yellowgreen;
+    }
+
+    .message {
+        border: thin solid red;
+    }
+
+    .minor-controls {
+        width: 10em;
+        float: right;
+        padding: 0.25em 2em;
+        background: #a3b18a;
+        font-size: 66%;
+    }
+
+    .minor-controls a {
+        float: right;
+    }
+
+    .warn {
+        color: maroon;
+    }
+
+    .widget {
+        background-color: #a3b18a;
+        border: thin solid #588157;
+        margin-top: 0;
+        margin-bottom: 0;
+        width: 100%;
+    }
+
+    .wiki {
+        margin: 0;
+    }
+
+    form {
+        border: thin solid #588157;
+    }
+
+    del {
+        color: red;
+    }
+
+    div.content,
+    div.container,
+    form,
+    p,
+    pre,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    iframe {
+        padding: 0.25em 10%;
+    }
+
+    dl,
+    menu,
+    ol,
+    table,
+    ul {
+        padding: 0.25em 1em;
+        margin: 0 10%;
+    }
+
+    ol ol {
+        padding: 0.25em 2em;
+        margin: 0 0;
+    }
+
+    input {
+        background-color: #588157;
+    }
+
+    input.action {
+        background-color: green;
+    }
+
+    input.action-dangerous {
+        color: 588157;
+        background-color: red;
+    }
+
+    input.required:after {
+        content: " \*";
+        color: red;
+    }
+
+    header h1 {
+        padding: 0.25em 18%;
+    }
+
+    ins {
+        color: green;
+    }
+
+    label {
+        width: 20%;
+        min-width: 20em;
+        border-right: thin solid #588157;
+    }
+
+    menu li {
+        display: inline;
+    }
+
+    menu li::before {
+        content: "|| ";
+    }
+
+    table {
+        border: 2px solid #588157;
+        border-collapse: collapse;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #a3b18a;
+    }
+
+    th,
+    td {
+        text-align: left;
+        vertical-align: top;
+        padding: 0.15em 1.5em;
+        border: 1px solid #588157;
+    }
+
+    th {
+        background-color: #a3b18a;
+    }
+}
+
+/* tablets, primarily. Adapted to touch; targets are larger */
+@media all and (min-device-width: 769px) and (max-device-width: 1024px) {
+    #nav {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        z-index: 149;
+        background: #a3b18a;
+    }
+
+    #nav a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #nav:hover #nav-menu {
+        display: block;
+        list-style-type: none;
+        width: 100%;
+    }
+
+    #nav-icon {
+        padding: 0;
+    }
+
+    #nav-menu,
+    #phone-side-bar,
+    #side-bar {
+        display: none;
+    }
+
+    #nav menu li {
+        padding: 0.5em 2em 0.5em 0.5em;
+        margin: 0.5 em;
+        font-size: 150%;
+    }
+
+    #nav menu li a {}
+
+    #nav ul li.active a {
+        background: #dad7cd;
+    }
+
+    li.nav-item a:hover {
+        background: #dad7cd
+    }
+
+    li.nav-item a:active {
+        background: #dad7cd;
+    }
+
+    #nav menu #user {
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0;
+    }
+}
+
+/* phones, and, indeed, smaller phones. Adapted to touch; display radically
+     * decluttered */
+@media all and (max-device-width: 768px) {
+    footer {
+        display: none;
+    }
+
+    #nav {
+        margin: 0;
+        padding: 0;
+        position: fixed;
+        z-index: 149;
+        background: #a3b18a;
+    }
+
+    #nav a {
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    #nav:hover #nav-menu {
+        display: block;
+        list-style-type: none;
+        width: 100%;
+    }
+
+    #nav-icon {
+        display: block;
+        padding: 0;
+    }
+
+    #nav-menu {
+        list-style-type: none;
+        display: none;
+    }
+
+    #nav menu li {
+        padding: 0.5em 2em 0.5em 0.5em;
+        margin: 0.5 em;
+        font-size: 150%;
+    }
+
+    #nav menu li a {}
+
+    #nav ul li.active a {
+        background: #dad7cd;
+    }
+
+    #side-bar,
+    #cookies {
+        display: none;
+    }
+
+    li.nav-item a:hover {
+        background: #dad7cd
+    }
+
+    li.nav-item a:active {
+        background: #dad7cd;
+    }
+
+    #nav menu #user {
+        text-decoration: none;
+        font-weight: bold;
+        margin: 0;
+    }
+}
