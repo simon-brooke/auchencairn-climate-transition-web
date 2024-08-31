@@ -32,7 +32,7 @@
  :site-title                   "Auchencairn Climate Transition"
  :site-url                     "https://act.scot/"
  :tag-root-uri                 "tags-output"
- :theme                        "camouflage";; "warming-stripes" ;; "camouflage"
+ :theme                        "warming-stripes" ;; "camouflage" ;;
  :theme-resources              ["img" "fonts"]
  :twitter-acct                 nil ;; change this to "your-twitter-handle" to enable auto twitter banners
  }
