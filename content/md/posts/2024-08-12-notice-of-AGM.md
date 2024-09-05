@@ -1,3 +1,13 @@
+{:author "Simon Brooke",
+ :date "2024-08-12",
+ :description
+ "Auchencairn Climate Transition's A.G.M will take place on Sunday 1st September 2024, at 1 pm, in Link Park, Auchencairn. All are welcome to attend.\nPlease see attached the agenda for the AGM and minutes from last year's AGM.",
+ :image nil,
+ :inferred-meta true,
+ :tags ["Meetings"],
+ :title "Notice of Annual General Meeting"}
+
+
 # Notice of Annual General Meeting
 
 Auchencairn Climate Transition's A.G.M will take place on Sunday 1st September 2024, at 1 pm, in Link Park, Auchencairn. All are welcome to attend.

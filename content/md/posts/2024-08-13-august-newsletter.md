@@ -1,3 +1,18 @@
+{:author "Simon Brooke",
+ :date "2024-08-13",
+ :description "",
+ :image
+ {:path "/img/carrifran-visit.png",
+  :alt
+  "Minibus trip participants enjoy views of a Golden Eagle at Carrifran Wildwood. Photo: Barry O’Dowd",
+  :width 1484,
+  :height 445,
+  :type "image/png"},
+ :inferred-meta true,
+ :tags ["Newsletters"],
+ :title "August newsletter"}
+
+
 ## A warm welcome to the new ACT e-newsletter!
 
 ![Minibus trip participants enjoy views of a Golden Eagle at Carrifran Wildwood. Photo: Barry O’Dowd](/img/carrifran-visit.png)
