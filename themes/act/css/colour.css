@@ -1,0 +1,130 @@
+/* colour-only stylesheet */
+
+
+a {
+    color: #3c3508;
+}
+
+a:visited {
+    color: #847411;
+}
+
+body {
+    color: black;
+    background-color: #ecdd72;
+}
+
+#nav {
+    background: #ebd216;
+}
+
+#nav ul li.active a {
+    color: #3c3508;
+    background-color: #847411;
+}
+
+li.nav-item a:hover {
+    color: #ebd216;
+    background-color: #847411;
+}
+
+li.nav-item a:active {
+    color: #ecdd72;
+    background-color: #847411;
+}
+
+#sidebar {
+    background-color: #847411;
+    padding-bottom: 2.5em;
+}
+
+#sidebar a {color: black;}
+#sidebar a:visited {color: #3c3508;}
+
+
+/* header for all pages. */
+#header {
+    background-color: #ebd216;
+}
+
+/* about-cookies box: permanently visible part of cookies information box */
+#about-cookies {
+    background: #ebd216;
+}
+
+/* more-about-cookies box, normally hidden */
+#more-about-cookies {
+    background: #ebd216;
+    border-bottom: thin solid yellowgreen;
+}
+
+/* footer of the page */
+#footer {
+    background: #ebd216;
+}
+
+
+/* I suspect neither 'error' nor 'message' are relevant now I've moved to static compilation. */
+.error {
+    background-color: red;
+    color: yellowgreen;
+}
+
+.message {
+    border: thin solid red;
+}
+
+.widget {
+    background-color: #ebd216;
+    border: thin solid #3c3508;
+}
+
+form {
+    border: thin solid #3c3508;
+}
+
+del {
+    color: red;
+}
+
+input {
+    background-color: #3c3508;
+}
+
+input.action {
+    background-color: green;
+}
+
+input.action-dangerous {
+    color: yellowgreen;
+    background-color: red;
+}
+
+input.required:after {
+    color: red;
+}
+
+ins {
+    color: green;
+}
+
+label {
+    border-right: thin solid #3c3508;
+}
+
+table {
+    border: 2px solid #3c3508;
+}
+
+tr:nth-child(even) {
+    background-color: #ebd216;
+}
+
+th,
+td {
+    border: 1px solid #3c3508;
+}
+
+th {
+    background-color: #ebd216;
+}
