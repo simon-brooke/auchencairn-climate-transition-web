@@ -1,6 +1,6 @@
 {:author "Susanna Pallinder, Simon Brooke",
  :date "2025-06-11",
- :description "Draft Minutes a joint effort between Simon and Susanna.",
+ :description "Draft Minutes: a joint effort between Simon and Susanna.",
  :image nil,
  :inferred-meta true,
  :tags ["Minutes" "Meetings"],
