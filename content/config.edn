@@ -1,7 +1,7 @@
 {:archive-group-format         "yyyy MMMM"
  :author                       "Auchencairn Climate Transition"
  :author-root-uri              "authors-output"
- :blocks-per-preview           2
+ :blocks-per-preview           4
  :blog-prefix                  ""
  :clean-urls                   :trailing-slash
  :collapse-subdirs?            false
@@ -21,7 +21,7 @@
  :post-root                    "posts"
  :post-root-uri                "posts-output"
  :posts-per-page               5
- :previews?                    false
+ :previews?                    true
  :public-dest                  "public"
  :recent-posts                 3
  :resources                    ["img"]
