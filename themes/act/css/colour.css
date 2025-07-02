@@ -23,6 +23,14 @@ body {
     background-color: #847411;
 }
 
+#under-construction {
+    background: url("/img/diagonal.png") repeat;
+}
+
+#under-construction > div {
+    background-color: #ebd216;
+}
+
 li.nav-item a:hover {
     color: #ebd216;
     background-color: #847411;

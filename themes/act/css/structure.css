@@ -42,6 +42,15 @@ h1, h2, h3, h4, h5, h6, th {
     width: 2.5em;
 }
 
+#under-construction {
+    padding: 0.5em 2em;
+}
+
+#under-construction > div {
+    padding: 0.25em 0.5em;
+    text-align: center;
+}
+
 footer {
     clear: both;
     font-size: smaller;

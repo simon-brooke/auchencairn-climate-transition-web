@@ -6,9 +6,6 @@
  :tags ["Minutes" "Meetings"],
  :title "Draft minutes of Active Group meeting on the 4th June."}
 
-
-# Draft minutes of Active Group meeting on the 4th June.
-
 **Present**: Denis, Karen, Lee, Jif, Susanna, Simon; **Apologies**: Jen, Bill
 
 ## Minutes of Last
