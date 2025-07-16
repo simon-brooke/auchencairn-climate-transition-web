@@ -1,6 +1,9 @@
 {:author "Rowan O'Dowd",
  :date "2024-08-13",
- :description "",
+ :description "ACT is a dynamic community organisation driven by many committed and
+enthusiastic people. This is a place to catch-up on all the great things that
+are happening and a space to share your news and projects with other
+members",
  :image
  {:path "/img/carrifran-visit.png",
   :alt
@@ -18,7 +21,7 @@
 ![Minibus trip participants enjoy views of a Golden Eagle at Carrifran Wildwood. Photo: Barry O’Dowd](/img/carrifran-visit.png)
 
 ACT is a dynamic community organisation driven by many committed and
-enthusiastic people This is a place to catch-up on all the great things that
+enthusiastic people. This is a place to catch-up on all the great things that
 are happening and a space to share your news and projects with other
 members. Guidelines for submission can be found at the end of this
 newsletter, we hope you enjoy this first edition....
