@@ -298,6 +298,11 @@ footer {
      * decluttered */
 @media all and (max-device-width: 768px) {
     body {
+        background-attachment: fixed;
+        background-image: url('/img/actlogo_trans_bg.png');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100%;
         padding: 0.5em;
     }
 
