@@ -43,10 +43,12 @@ h1, h2, h3, h4, h5, h6, th {
 }
 
 #under-construction {
+    margin: 2em 0.25em;
     padding: 0.5em 2em;
 }
 
 #under-construction > div {
+    font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
     padding: 0.25em 0.5em;
     text-align: center;
 }
@@ -92,21 +94,17 @@ footer {
         padding: 0;
     }
 
-    #nav ul li {
+    #nav menu li {
         padding: 0;
         margin: 0;
         display: inline;
     }
 
-    #nav ul li a {
+    #nav menu li a {
         text-decoration: none;
-        font-weight: bold;
+        font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
         padding: 0.1em 0.75em;
         margin: 0;
-    }
-
-    #nav ul li.active a {
-        background: #0c0;
     }
 
     /* header for all pages. Within main-container */
@@ -142,6 +140,7 @@ footer {
     #about-cookies {
         clear: right;
         width: 10em;
+        font-family: 'Permanent Marker', Arial, Helvetica, sans-serif;
         font-size: 66%;
         float: right;
         text-align: right;

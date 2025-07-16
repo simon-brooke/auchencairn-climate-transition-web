@@ -18,7 +18,7 @@ body {
     background: #ebd216;
 }
 
-#nav ul li.active a {
+#nav menu li:active a, #nav menu li:hover a{
     color: #3c3508;
     background-color: #847411;
 }

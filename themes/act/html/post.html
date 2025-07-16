@@ -33,7 +33,7 @@
 {% block content %}
 <div id="post">
     {% include "/html/post-content.html" %}
-    <div id="prev-next">
+    <div id="prev-next" class="container">
         {% if post.prev %}
         <a href="{{post.prev.uri}}">&laquo; {{post.prev.title}}</a>
         {% endif %}

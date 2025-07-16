@@ -47,9 +47,6 @@
         {% block side-bar %}
         <div id="sidebar">
             <img src="/img/actlogo_trans_bg.png" alt="ACT sunflower logo" style="width: 90%">
-            <div id="under-construction">
-                <div>Under construction</div>
-            </div>
             {% if latest-posts|not-empty %}
             <div id="recent">
                 <h3>Recent Posts</h3>
@@ -70,6 +67,9 @@
                 </ul>
             </div>
             {% endif %}
+            <div id="under-construction">
+                <div>Under construction</div>
+            </div>
         </div>
         {% endblock %}
     </div>
