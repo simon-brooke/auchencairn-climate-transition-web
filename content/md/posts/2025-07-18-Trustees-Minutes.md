@@ -82,7 +82,7 @@ Delegate to Active Group; Denis has been speaking with Sandy and something may e
 
 Existing subgroup; is this a trustees issue?
 
-Needs: Funders page with logos of all current funders. **Action**: Simon to talk to Denis
+Needs: [Funders page with logos of all current funders](https://act.scot/pages-output/funders/). **Action**: Simon to talk to Denis
 
 ##  Process
 
